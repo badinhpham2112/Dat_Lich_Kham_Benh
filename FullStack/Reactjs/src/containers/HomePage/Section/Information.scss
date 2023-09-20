@@ -1,0 +1,50 @@
+.home-information-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 20px;
+    .left-content {
+        width: 45%;
+        align-items: center;
+        border: 2px solid gray;
+        .header-logo {
+            height: 42%;
+            width: 70%;
+            transform: scale(0.5, 0.5);
+            margin-left: -90px;
+        }
+        .company-HN {
+            margin-top: -15px;
+            h2 {
+                font: 14px/1.5 'Montserrat', sans-serif;
+                outline: none;
+                font-weight: bold;
+                margin: 5px 0;
+            }
+        }
+    }
+    .center-content {
+        width: 25%;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid red;
+        /* outline: none; */
+        list-style: none;
+        padding-left: 20px;
+        li {
+            padding: 4px;
+            color: #6bc3d8;
+        }
+    }
+    .right-content {
+        width: 25%;
+        align-items: center;
+        justify-content: flex-end;
+        border: 2px solid green;
+        .ds {
+            p {
+                font-weight: 700;
+            }
+        }
+    }
+}

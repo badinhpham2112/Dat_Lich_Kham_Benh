@@ -1,0 +1,9 @@
+.clinic-child {
+    cursor: pointer;
+    .clinic-name {
+        padding: 10px 0 !important;
+        &:hover {
+            color: blue !important;
+        }
+    }
+}
